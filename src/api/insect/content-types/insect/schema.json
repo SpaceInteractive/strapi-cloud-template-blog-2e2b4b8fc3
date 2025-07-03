@@ -23,6 +23,14 @@
         }
       }
     },
+    "name_en": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "latinname": {
       "type": "string",
       "pluginOptions": {
@@ -32,6 +40,14 @@
       }
     },
     "description": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description_en": {
       "type": "blocks",
       "pluginOptions": {
         "i18n": {
